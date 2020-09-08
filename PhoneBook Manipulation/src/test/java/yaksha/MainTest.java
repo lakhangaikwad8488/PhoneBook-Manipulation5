@@ -53,5 +53,22 @@ class MainTest {
 
 		//assertTrue(pb.removeContact(77886655));
 	}
+	@Test
+	public void testExceptionConditon() throws Exception{
+
+	              TestUtils.yakshaAssert(TestUtils.currentTest(),false,TestUtils.boundaryTestFile);
+
+	             
+
+	}
+
+	 
+
+	@Test
+	public void testBoundaryCondition() throws Exception {
+
+	              TestUtils.yakshaAssert(TestUtils.currentTest(),false,TestUtils.exceptionTestFile);
+
+	}
 
 }
