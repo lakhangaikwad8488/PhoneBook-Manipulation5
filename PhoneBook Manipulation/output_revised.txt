@@ -1,0 +1,5 @@
+
+testRemoveContact=true
+testViewAllContacts=true
+testViewContactGivenPhone=true
+testAddContact=true
